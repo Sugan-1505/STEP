@@ -12,7 +12,7 @@ public class FirstNonRepeatingCharacter {
             if (frequency.get(ch) == 1) return ch;
         }
 
-        return '\\0';
+        return '\0';
     }
 
     public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class FirstNonRepeatingCharacter {
 
         char result = findFirstNonRepeatingChar(text);
 
-        if (result == '\\0') {
+        if (result == '\0') {
             System.out.println("No Non-Repeating Character Found");
         } else {
             System.out.println("First Non-Repeating Character: '" + result + "'");
